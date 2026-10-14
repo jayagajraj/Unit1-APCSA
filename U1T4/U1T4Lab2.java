@@ -1,3 +1,4 @@
+package U1T4;
 import java.util.Scanner;
 public class U1T4Lab2 {
 
