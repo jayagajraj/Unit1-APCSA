@@ -1,11 +1,17 @@
 package U1T8;
 public class Main {
    public static void main(String[] args) {
-    Letter letter1 = new Letter();
-    letter1.greeting("Amy");
-    letter1.specialMessage();
-    letter1.closing();
+   // create Letter object
+    Letter myLetter = new Letter("Ms. Turin");
 
-    
+    // write letters to various people
+    myLetter.writeLetter("Amy");
+    System.out.println();
+    myLetter.writeLetter("Ethan");
+    System.out.println();
+    myLetter.writeLetter("Bonnie");
+    System.out.println();
+    myLetter.writeLetter("Scott");
+
    }
 }

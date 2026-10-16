@@ -3,13 +3,21 @@ package U1T8;
 public class Letter {
     // instance variables
     /* none yet */
+private String from;
 
     // constructor; since there are no instance variables to initialize,
     // this constructor has no parameters and has an empty body: { }
-    public Letter() { }
-    
+    public Letter(String from) {
+        this.from = from;
+    }
+
     /* add your writeLetter method here: TO BE IMPLEMENTED IN #4 */
-    public voi
+    public void writeLetter(String name) {
+        greeting(name);
+        specialMessage();
+        closing();
+       System.out.println("From, " + this.from);
+    }
 
 
 
@@ -25,5 +33,9 @@ public class Letter {
 
     public void closing() {
         System.out.println("See you later!");
+    }
+
+    public void from(String name) {
+        System.out.println("From: " + this.from);
     }
 }
