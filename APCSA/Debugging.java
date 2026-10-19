@@ -1,3 +1,4 @@
+package APCSA;
 import java.util.Scanner;
 
 public class Debugging {
